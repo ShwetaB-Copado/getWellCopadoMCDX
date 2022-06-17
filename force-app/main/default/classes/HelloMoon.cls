@@ -37,4 +37,10 @@ public with sharing class HelloMoon {
     public void say10() {
         System.debug('10');
     }
+     
+     public void manav(Account b, Account b1,Account b2,Account b3,Account b4,Account b5,Account b6,Account b7, Account b99){
+        //public static Account setAccountName(Account b){
+        if (b.Description != null){
+            b.name= 'Account name -demo';
+        }}
 }
